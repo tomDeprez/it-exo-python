@@ -1,0 +1,10 @@
+Test avec  effectué à Wed Nov 29 14:11:50 2023 - Succès: test validé 
+Test avec Maria Garcia effectué à Wed Nov 29 14:11:54 2023 - Succès: test validé 
+Test avec John Smith effectué à Wed Nov 29 14:11:57 2023 - Succès: test validé 
+Test avec Liu Wei effectué à Wed Nov 29 14:12:00 2023 - Succès: test validé 
+Erreur lors du test avec Fatima Al Zahra à Wed Nov 29 14:12:00 2023 : test erreur
+Erreur lors du test avec Sven Eriksson à Wed Nov 29 14:12:01 2023 : test erreur
+Erreur lors du test avec Chloe Dubois à Wed Nov 29 14:12:01 2023 : test erreur
+Erreur lors du test avec Raj Patel à Wed Nov 29 14:12:01 2023 : test erreur
+Erreur lors du test avec Anna Müller à Wed Nov 29 14:12:01 2023 : test erreur
+Erreur lors du test avec Pedro Alvarez à Wed Nov 29 14:12:02 2023 : test erreur

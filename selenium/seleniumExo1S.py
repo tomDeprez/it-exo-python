@@ -12,6 +12,9 @@ driver.get("http://google.com")
 
 time.sleep(2)
 var = driver.find_element(By.CLASS_NAME, "spoKVd")
-test = var.find_elements(By.TAG_NAME, "button")[1]
+test = var.find_elements(By.TAG_NAME, "button")[1].click()
 test.click()
 time.sleep(2)
+len()
+bonjour = "bonjour"
+bonjour.replace()
