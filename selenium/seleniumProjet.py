@@ -36,7 +36,6 @@ jeuDeTest = [
 with open(log_file, 'w', encoding = "UTF-8") as file:
     file.write("")
 for test in jeuDeTest :
-
     try:
         driver.find_element(By.ID, "firstName").send_keys(test[0])
         driver.find_element(By.ID, "lastName").send_keys(test[1])
@@ -60,15 +59,20 @@ for test in jeuDeTest :
 
         driver.execute_script("document.getElementById('details').value='" + test[0] + "';")
 
-        driver.find_element(By.ID, "same-address").click()
-        driver.find_element(By.ID, "save-info").click()
-        driver.find_element(By.ID, "debit").click()
+        # driver.find_element(By.ID, "same-address").click()
+        driver.execute_script("document.getElementById('same-address').click()")
+        # driver.find_element(By.ID, "save-info").click()
+        driver.execute_script("document.getElementById('save-info').click()")
+        # driver.find_element(By.ID, "debit").click()
+        driver.execute_script("document.getElementById('debit').click()")
         driver.find_element(By.ID, "cc-name").send_keys("avec un grand T")
         driver.find_element(By.ID, "cc-number").send_keys("0000 1234 9874 9510")
         driver.find_element(By.ID, "cc-name").send_keys(" comme Ta qua croire")
         driver.find_element(By.ID, "cc-expiration").send_keys("trop tard")
         driver.find_element(By.ID, "cc-cvv").send_keys("007")
-        driver.find_element(By.ID, "checkoutForm").click()
+        # driver.find_element(By.ID, "checkoutForm").click()
+        # driver.find_element(By.ID, "checkoutForm").click()
+        driver.execute_script("document.getElementById('checkoutForm').click()")
 
         driver.get(url)
 
